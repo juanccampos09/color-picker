@@ -1,0 +1,16 @@
+﻿.form-control {
+    width: 100% !important;
+    height: calc(1.5em + 0.75rem + 2px) !important;
+    display: block !important;
+}
+
+.minicolors-swatch.minicolors-sprite.minicolors-input-swatch
+{
+    top: 11px !important;
+    left: 14px !important;
+}
+
+/*.minicolors.minicolors-theme-default.minicolors-with-opacity.minicolors-position-bottom.minicolors-position-left
+{
+    width: 100% !important;
+}*/

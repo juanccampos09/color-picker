@@ -1,0 +1,49 @@
+﻿/*los colores que aparecen son solo para que la clase exista, por lo que el color blanco no se aplica*/
+.titulos
+{
+    color: #fff;
+}
+
+.subtitulos {
+    color: #fff;
+}
+
+.parrafos {
+    color: #fff;
+}
+
+.links {
+    color: #fff;
+}
+
+.linksHover:hover {
+    color: #fff;
+}
+
+.fondoPagina {
+    background-color: #fff;
+}
+
+.fondoPiePagina {
+    background-color: #fff;
+}
+
+.textoNav {
+    color: #fff;
+}
+
+.fondoNav {
+    background-color: #fff;
+}
+
+.fondoTarjeta {
+    background-color: #fff;
+}
+
+.fondoEncabezado {
+    background-color: #fff;
+}
+
+.fondoTextoEncabezado {
+    color: #fff;
+}

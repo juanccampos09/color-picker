@@ -1,0 +1,132 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.barraNav
+{
+	background: rgba(0,0,0,0.0);
+	width: 100%;
+	position: absolute;
+	z-index: 1; /*necesario para que se posicione al frente de cualquier elemento*/
+	color: #fff;
+}
+
+.btnNavTransparent
+{
+	background: rgba(0,0,0,0.0);
+	border: 1px solid #fff;
+	border-radius: 30px;
+	color: #fff
+}
+
+.titulo
+{
+	text-align: center;
+	font-weight: bold;
+	color: #676767;
+	font-size: 47px;
+	margin: 50px auto;
+}
+
+.tituloMargenPequeño
+{
+	margin: 50px auto;
+}
+
+.tituloMargenGrande
+{
+	margin: 92px auto;
+}
+
+.descripcionGrande
+{
+	font-size: 25px;
+	text-align: justify;
+}
+
+.descripcionPequeña
+{
+	font-size: 18px;
+	text-align: justify;
+}
+
+.margenesDescripcion
+{
+	margin: 5px 30px;
+	
+}
+
+.centrar
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*---------------------------------------footer--------------------------------------------------*/
+
+
+.tituloFooter
+{
+	color: #FFF; 
+   font-weight: bold; 
+   border-bottom: 1px solid #c7c7c7; 
+   padding-bottom: 5px;
+   text-transform: uppercase;
+   margin-bottom: 24px;
+}
+
+
+.listaFooter li{
+    margin:20px 0px;
+    list-style: none;
+}
+ 
+.listaFooter li a,
+.listaFooter li p{
+    color:#FFF;
+    font-size:19px;
+}
+
+.address .fa{
+    color: #da3e44;
+    margin-right: 10px;
+    font-size:18px;
+}
+
+footer
+{
+	background: #23242A;
+	font-size: 26px;
+	color: #fff;
+}
+
+.botonRedondo
+{
+	border: 1px solid #fff;
+	border-radius: 60px;
+	background-color: rgba(0,0,0,0.0);
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	position: relative;
+	transition: all 0.3s ease-out;
+}
+
+.botonRedondo:hover
+{
+	background-color: #fff;
+}
+
+.botonRedondo:hover > *
+{
+	
+	color: #23242A;
+}
+
+
+/*---------------------------------------fin footer--------------------------------------------------*/
